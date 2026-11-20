@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>授权快照数据接入层</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232a78d6'/%3E%3Cpath d='M9 17l4 4 10-10' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+  </head>
+  <body>
+    <div class="app">
+      <aside class="sidebar" id="sidebar">
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" width="26" height="26"><rect width="32" height="32" rx="9" fill="var(--accent)"/><path d="M9 17l4 4 10-10" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="brand-text">
+            <strong>授权快照</strong>
+            <span>数据接入层</span>
+          </div>
+        </div>
+        <nav class="nav" id="nav" aria-label="主导航"></nav>
+        <div class="sidebar-foot">
+          <div class="actor">
+            <div class="avatar">林</div>
+            <div class="actor-text">
+              <strong>林澜</strong>
+              <span>数据合规负责人</span>
+            </div>
+          </div>
+          <p class="env-note">演示环境 · 处置执行器按批次分块处理</p>
+        </div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <div class="crumb" id="crumb"></div>
+          <div class="topbar-actions" id="topbar-actions"></div>
+        </header>
+        <div class="content" id="view" tabindex="-1"></div>
+      </main>
+    </div>
+
+    <div class="toast-stack" id="toast-stack" aria-live="polite"></div>
+    <div class="drawer-scrim" id="drawer-scrim" hidden></div>
+    <aside class="drawer" id="drawer" hidden aria-label="详情面板"></aside>
+
+    <script type="module" src="/js/app.js"></script>
+  </body>
+</html>

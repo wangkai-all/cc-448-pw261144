@@ -1,0 +1,16 @@
+{
+  "name": "consent-ledger",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "授权快照数据接入层 — 批次绑定用途/范围/保留期，收窄撤回后按影响范围处置已入库数据",
+  "engines": {
+    "node": ">=22.5"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "seed": "node scripts/seed.js --reset",
+    "test": "node --test test/*.test.js",
+    "test:e2e": "node test/e2e.ui.mjs"
+  }
+}
